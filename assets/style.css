@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* Font Importing */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhduz8A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjRdE.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+.newspaper-container {
+    width: 700px;
+}
+
+/* Navbar */
+#navbar {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: #eee;
+    font-family: "Source Sans Pro";
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    color: #eee;
+    display: inline-block;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    margin-right: 13px;
+}
+
+/* Element Formatting */
+h1 {
+    text-align: center;
+    font-family: "Abril Fatface";
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+}
+
+h4 {
+    font-family: 'Roboto Slab';
+}
+
+h5 {
+    color: #dd3232;
+    font-family: "Source Sans Pro"
+}
+
+p {
+    font-family: "Source Sans Pro";
+}
+
+#image1 {
+    width: 700px;
+}
+
+#text1 {
+    width: 700px;
+}
+
+/* Articles appear side by side */
+hr {
+    color: #eee;
+}
+
+.more-articles {
+    border: 3px solid #fff;
+}
+
+.side {
+    width: 40%;
+    float: left;
+    border: 2px;
+    padding: 0px 68px 0px 0px;
+}
