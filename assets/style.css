@@ -29,8 +29,20 @@
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
+body {
+    background-color: #eee;
+}
+
+.date {
+    padding-top: 5px;  
+    padding-left: 12px;
+}
+
 .newspaper-container {
     width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
 }
 
 /* Navbar */
@@ -48,7 +60,9 @@ ul {
     text-align: center;
     color: #eee;
     display: inline-block;
-    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 li {
@@ -56,7 +70,7 @@ li {
 }
 
 li a {
-    margin-right: 13px;
+    margin-right: 10px;
 }
 
 /* Element Formatting */
@@ -68,6 +82,7 @@ h1 {
 
 h2 {
     font-family: 'Roboto Slab';
+    text-align: center;
 }
 
 h4 {
@@ -98,11 +113,15 @@ hr {
 
 .more-articles {
     border: 3px solid #fff;
+    background-color: white;
 }
 
 .side {
     width: 40%;
     float: left;
     border: 2px;
-    padding: 0px 68px 0px 0px;
+    padding-top: 0px;
+    padding-left: 0em;
+    padding-right: 68px;
+    background-color: white;
 }
